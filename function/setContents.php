@@ -41,8 +41,7 @@
         $tableName = strtolower($page);
         $amount = query("SELECT COLUMN_NAME FROM INFORMATION_SCHEMA.COLUMNS 
                 WHERE TABLE_NAME = '$tableName' 
-                AND TABLE_SCHEMA = 'trpl2b' 
-                AND COLUMN_NAME NOT IN('prodi_id')");
+                AND TABLE_SCHEMA = 'trpl2b'");
         return $amount;     
     }
 ?>
