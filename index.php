@@ -64,6 +64,7 @@
           <li><a href="?p=dosen">Dosen</a></li>
           <li><a href="?p=berita">Berita</a></li>
           <li><a href="?p=mk">Mata Kuliah</a></li>
+          <li><a href="?p=ruangan">Ruangan</a></li>
         </ul>
         <i class="mobile-nav-toggle d-xl-none bi bi-list"></i>
       </nav>

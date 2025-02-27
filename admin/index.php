@@ -179,6 +179,12 @@
                 Mata Kuliah
               </a>
             </li>
+            <li class="nav-item">
+              <a class="nav-link d-flex align-items-center gap-2" href="index.php?p=ruangan">
+                <svg class="bi"><use xlink:href="#graph-up"/></svg>
+                Ruangan
+              </a>
+            </li>
           </ul>
 
           <hr class="my-3">
@@ -210,6 +216,7 @@
           if($page == 'dosen') include('dosen.php');
           if($page == 'user') include('user.php');
           if($page == 'mk') include('matakuliah.php');
+          if($page == 'ruangan') include('ruangan.php');
       ?>
     </main>
     
